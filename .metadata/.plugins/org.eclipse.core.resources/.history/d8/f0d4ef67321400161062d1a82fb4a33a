@@ -1,0 +1,39 @@
+package org.synoreso.synoreso;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+/**
+ * Main class of this project!
+ * 
+ * @author JF
+ * @version 1.0
+ */
+public class SynoReso {
+	/**
+	 * Logger Log4j de la classe SynoReso
+	 * 
+	 * @see SynoReso
+	 * @since 1.0
+	 */
+	private static final Logger logger = LogManager.getLogger(SynoReso.class.getName());
+	private static final Double version = 1.0;
+
+	public static void main(String[] args) {
+		System.out.println("Hello World!");
+	}
+
+	/**
+	 * @return the logger
+	 */
+	public static Logger getLogger() {
+		return logger;
+	}
+
+	/**
+	 * @return the version
+	 */
+	public static Double getVersion() {
+		return version;
+	}
+}

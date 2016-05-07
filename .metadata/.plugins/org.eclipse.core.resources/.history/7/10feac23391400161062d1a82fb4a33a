@@ -1,0 +1,40 @@
+package org.synoreso.ihm.component;
+
+import javax.swing.JFrame;
+
+import org.synoreso.synoreso.SynoReso;
+
+/**
+ * Component of the MainWindow
+ * 
+ * @author JF
+ * @since 1.0
+ */
+public class MainWindow extends JFrame {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 8341180691260274894L;
+
+	/**
+	 * MainWindow constructor
+	 */
+	public MainWindow() {
+		super("SynoReso v" + SynoReso.getVersion());
+		init();
+	}
+
+	/**
+	 * Initialization of the component
+	 */
+	private void init() {
+		// Dimension screen = Toolkit.getDefaultToolkit().getScreenSize();
+
+		setLocationRelativeTo(null);
+		setExtendedState(JFrame.MAXIMIZED_BOTH);
+		setPreferredSize(new Dimension(JFrame.MAXIMIZED_HORIZ, JFrame.MAXIMIZED_VERT));
+		setVisible(true);
+		setResizable(false);
+	}
+}

@@ -1,0 +1,14 @@
+package org.synoreso.controller;
+
+import org.apache.logging.log4j.core.Logger;
+import org.apache.logging.log4j.core.LoggerContext;
+import org.apache.logging.log4j.message.MessageFactory;
+
+public class LoggerController extends Logger {
+
+	protected LoggerController(LoggerContext context, String name, MessageFactory messageFactory) {
+		super(context, name, messageFactory);
+		// TODO Auto-generated constructor stub
+	}
+
+}

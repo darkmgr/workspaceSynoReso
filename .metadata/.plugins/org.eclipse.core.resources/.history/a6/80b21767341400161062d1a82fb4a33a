@@ -1,0 +1,35 @@
+package org.synoreso.ihm;
+
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+import java.awt.event.WindowListener;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+import org.synoreso.synoreso.SynoReso;
+
+public class MainWindow extends JFrame {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 8341180691260274894L;
+
+	public MainWindow() {
+		super("SynoReso v" + SynoReso.getVersion());
+
+		WindowListener l = new WindowAdapter() {
+			public void windowClosing(WindowEvent e) {
+				System.exit(0);
+			}
+		};
+
+		addWindowListener(l);
+
+		JPanel panneau = new JPanel();
+		setContentPane(panneau);
+		setSize(200, 100);
+		setVisible(true);
+	}
+}

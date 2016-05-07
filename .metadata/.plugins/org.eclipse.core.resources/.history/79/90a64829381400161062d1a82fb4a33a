@@ -1,0 +1,32 @@
+package org.synoreso.controller;
+
+import javax.swing.JFrame;
+
+import org.synoreso.ihm.component.MainWindow;
+import org.synoreso.ihm.controller.MainWindowController;
+
+/**
+ * @author JF
+ *
+ */
+public class IhmController {
+
+	private static JFrame mainWindow;
+
+	public IhmController() {
+
+	}
+
+	public static void initIhm() {
+		IhmController.mainWindow = new MainWindow();
+		
+		IhmController.mainWindow.addWindowListener(new MainWindowController());
+	}
+
+	/**
+	 * @return the mainwindow
+	 */
+	public static JFrame getMainwindow() {
+		return mainWindow;
+	}
+}

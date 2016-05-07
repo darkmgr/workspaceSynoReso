@@ -1,0 +1,10 @@
+1462610876972	Delete element
+1462611204091	Encapsulate field 'logger'
+1462611732564	Encapsulate field 'version'
+1462612070831	Encapsulate field 'mainWindow'
+1462613544713	Delete element
+1462613793923	Rename type 'ComposentListener'
+1462613893069	Rename package 'org.synoreso.ihm'
+1462613959806	Rename package 'org.synoreso.ihm.listener'
+1462613979427	Rename type 'MainWindowListener'
+1462614166687	Rename package 'org.synoreso.ihm.composent'

@@ -1,0 +1,8 @@
+package org.synoreso.controller;
+
+public class IhmController {
+
+	public IhmController() {
+		
+	}
+}

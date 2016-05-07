@@ -1,0 +1,14 @@
+package org.synoreso.controller;
+
+import javax.swing.JFrame;
+
+import org.synoreso.ihm.MainWindow;
+
+public class IhmController {
+
+	private static JFrame mainWindow = new MainWindow();
+	
+	public IhmController() {
+		
+	}
+}

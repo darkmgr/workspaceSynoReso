@@ -1,0 +1,5 @@
+package org.synoreso.controller;
+
+public class LoggerController {
+
+}

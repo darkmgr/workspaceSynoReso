@@ -1,0 +1,11 @@
+package org.synoreso.synoreso;
+
+/**
+ * Hello world!
+ *
+ */
+public class SynoReso {
+	public static void main(String[] args) {
+		System.out.println("Hello World!");
+	}
+}

@@ -1,0 +1,5 @@
+package org.synoreso.ihm.listener;
+
+public class WindowLister {
+
+}
